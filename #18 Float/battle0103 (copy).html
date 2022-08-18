@@ -1,0 +1,56 @@
+<b></b><r>
+<style>
+  html,body{
+    background:#161616
+  }
+  *,:before,:after{
+    content:"";
+    position:fixed;
+    background:#EBAE11;
+    border-radius:50%;
+    width:50%
+  }
+  body:before{
+    width:80;
+    height:57;
+    background:linear-gradient(90deg,#fff 50%,#FFDEB9 0);
+    border-radius:0 0 99q 99q;
+    top:159;
+    left:160;
+  }
+  b{
+    z-index:-1
+  }
+  b,r{
+    -webkit-box-reflect:right -16px
+  }
+  b:before{
+    width:60;
+    height:60;
+    top:130;
+    left:141;
+    clip-path:polygon(0 37%,100% 65%,100% 100%,0 100%)
+  }
+  r:after{
+    width:60;
+    height:60;
+    top:112;
+    left:155;
+    clip-path:polygon(0 0,21% 0,79% 100%,0 100%)
+  }
+  body:after{
+    background:#161616;
+    width:20;
+    height:10;
+    border-radius:0 0 9q 9q;
+    top:196;
+    left:190;
+    box-shadow:0 -47px 0 9px#EBAE11
+  }
+  html:before{
+    height:119;
+    width:119;
+    top:66;
+    left:182;
+    clip-path:circle(50% at -23.4px 50%)
+  }
