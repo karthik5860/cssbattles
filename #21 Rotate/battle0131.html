@@ -1,41 +1,36 @@
 <div class="a"></div>
-<div class="b"></div>
-<div class="c"></div>
+<div class="b a"></div>
+<div class="c b"></div>
+<div class="d"></div>
 <style>
   *{
-    background:#E38F66
-  }
-
-  .a{
+    background:#E38F66;
     position:absolute;
-    top:80;
-    left:185;
-    width: 60px;
-    height: 120px;
-    border-radius:0 0 60px 60px;
-    border:solid 30px #FFFBDA;
-    border-top:0;    
+  }
+  .d{
+    left:90;
+    width:260;
+    height:150;
+  }
+  .a{
+    top:42;
+    left:177;
+    width:120;
+    height:180;
+    border-radius:60px;
+    box-shadow:inset 0 0 0 30px #FFFBDA
   }
   .b{
-    position:absolute;
-    top:80;
-    left:95;
-    width: 60px;
-    height: 120px;
-    border-radius:0 0 60px 60px;
-    border:solid 30px #62306D;
-    border-top:0;    
+    left:87;
+    box-shadow:inset 0 0 0 30px #62306D
   }
   .c{
-    position:absolute;
-    top:70;
-    left:95;
-    width:30px;
-    height:30px;
+    top:62;
+    width:30;
+    height:120;
     background:#62306D;
-    border-radius:50%;
-    box-shadow:90px 0 #62306D,180px 0 #FFFBDA
+    border-radius:50px;
+    z-index:9;
+    box-shadow:90px 0px #62306D,180px 0 #FFFBDA
   } 
 </style>
-
-This is only 99.9% match
